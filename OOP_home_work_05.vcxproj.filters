@@ -4,5 +4,36 @@
     <Filter Include="application">
       <UniqueIdentifier>{b1845c5a-01bb-43e7-8f26-e8d29551a66c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="presentation">
+      <UniqueIdentifier>{e4f107b3-9f41-48b7-9cbc-06fddc70bc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{5f48c1cd-bb20-4f64-b8d5-79a7c9f3aa31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\use_case">
+      <UniqueIdentifier>{36221475-ee2b-4d14-9c97-fa133b53daab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\models">
+      <UniqueIdentifier>{3fbb50fe-5c96-48bc-8cee-9399d80ed245}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application_library.h">
+      <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="screens.h">
+      <Filter>presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="reservoirProvider.h">
+      <Filter>domain\use_case</Filter>
+    </ClInclude>
+    <ClInclude Include="reservoir.h">
+      <Filter>domain\models</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
